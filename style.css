@@ -1,0 +1,141 @@
+body{
+  background-color:#000000 ;
+}
+html,body,p,div,a,li,ul {
+	margin:0;
+	padding:0;
+min-width: 1280px;
+}
+input[type=button] {
+ font-size: 24px;
+ color:green;
+}
+#fon{
+	margin: 0 auto 0;
+	margin-left: 29.7%;
+	margin-top: 2%;
+	height:80px;
+	background-image:url('Untitled-2 copy.jpg');	
+background-repeat:no-repeat;
+}
+#shapka a{color: black;
+		font-size:24px;
+	right: -25px;
+	margin-left:20px;
+	text-align: center ;
+	text-decoration:none;
+position: relative;
+background-color: #FF7F50;
+border-radius: 3px;
+text-shadow:1px 1px 1px  rgba(0,0,0,0.95); 
+}
+#shapka a:hover{color:#FFFF00;
+text-decoration:overline;
+position: relative;
+top: 4px;
+}
+#firm{position: relative;
+margin-top: -65%;
+margin-left: 70%;
+font-size: 20px;
+}
+#ssil {margin: 0 auto 0;
+margin-left: 45%;
+}
+#kartinki{
+	margin-top: 4%;
+	position:relative;
+background-color:#000000 ;
+margin-left: 10%;
+}
+#kartinki1{
+	margin: 0 auto 0;
+	margin-top: 2%;
+	position:relative;
+background-color:#000000 ;
+margin-left: 27%;
+}
+#vpm{
+color: black;
+font-weight:bold;		
+font-size:24px;
+right:-84%;
+margin-top: -2%;
+position: relative;
+}
+#vpm a{color:green;
+background-color: black;
+}
+#vpm a:hover{color:#FFFF00;
+text-decoration:overline;
+}
+#spis{margin-left: 1.2%;
+		
+		}
+#pobeda{margin-left: 3%;
+	margin-right: 3%;
+	margin-top:-7%;
+	height: 20%
+}
+#pobeda li{ color:#CDCD00;
+	font-size: 40px;
+	    padding: 10px ;
+	   
+	    list-style-type:none;
+background-color: #000000;
+text-align: center;
+}
+#prot li{
+padding: 10px;
+	background-color: black}
+#prot{
+margin-top: 2%;
+	margin-left: 10%;
+}
+#chas{margin-left: -5%;
+	margin-top: -12%;}
+#prot li:hover{color: green}
+ul.menu { 
+  display: inline-block;
+  border-radius: 3px;
+
+/*background-color: #FF7F50;*/
+text-shadow:1px 1px 1px  rgba(0,0,0,0.95); 
+}
+ul.menu li {
+  list-style: none;
+}
+ul.menu li a {
+  display: block;
+  text-decoration: none;
+}
+ul.menu li ul { color:black;
+  display: none;
+}
+ul.menu li:hover ul {
+  display: block;
+  position: absolute;
+}
+ul.menu li:hover ul li {
+  float: none;
+}
+ul.menu li:hover ul li a {
+}
+/*Для странице о Спор.пит */
+li{color:#8FBC8F;
+font-size: 20px;
+background-color: #4169E1;
+border-radius: 3px;
+}
+h1{color:#8FBC8F;
+text-align: center;}
+h3{color:#8FBC8F;
+	text-align: center;
+}
+h5{ color:#CDCD00;
+	font-size: 70px;
+	text-align: center;}
+	h4{font-size: 48px;
+		color:#2FAC7e;
+	text-align: center;
+}
