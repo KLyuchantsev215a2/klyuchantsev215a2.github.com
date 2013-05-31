@@ -1,59 +1,106 @@
-    <html>
-<head> 
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html>
+  <head>
+    <meta>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+    <meta name="keywords" content="Do4a маркет, Спортпит Новосибирск,Магазин спорт питания"/>
+    <meta name="description" content="Do4a, компания, занимающаяся продажейспортпита. Главная страница"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+       <title>Главная</title>
+   </head>
+<body onload="start(document.forms[0])" onunload="cleartids()">
+ <div id="fon"> 
+    </div>
+   <Div id="ssil" >
+                     <img src="pic_390.jpg" usemap="#Map"  >
+<map name="Map">
+<area shape="rect" coords="0,0,300,200" href="index.html">
+</map> 
+</div>
+   <div style="position:relative ;"  id="shapka">
+       <a href="indexney.html">Новости</a>
+     <a href='index1.html'>Наш магазин/Контакты</a>
+    <a href='indexsport.html'>Спорт.пит для новичков</a>
+    <a  href='indexspisok.html'> Список предоставляемых товаров</a>
  
- <title> Магазины спорт.питания </title>
-  <body bgcolor="#9ACD32">
-<link rel="stylesheet" type="text/css" href="responsive-gs-12col.css"/>
-<link rel="stylesheet" type="text/css" href="common-styles.css"/>  
-</head>
-<body>
-<div id="page_wrap" class="container row">
-<div class="row">
-<div class="col span_12" ;> 
-<img src="images.jpeg" alt="David" />
+  </div> 
+  <div id="vpm" >
+   <ul class="menu">
+  <li>
+    <a href="#">Что такое Do4a</a>
+    <ul>
+      <li>
+        <a href="http://vk.com/do4a_trololo">Группа в вк</a>
+      </li>
+      <li>
+        <a href="http://www.youtube.com/feed/UC9Fust1L45Q_kNCZXAhCc8g">YouTube</a>
+      </li>
+      <li>
+      </li>
+    </li>
+    </ul>
 </div>
-<div>
-<div class="col span_1" style='background-color:#660';> 
-<font size='2' color='white'>
-<p > Место для вашей рекламы </p>
-<img src="kosmos.jpg" alt="David" />
-</div>
-<div>
-<div class="col span_11" style='background-color:#060' > 
-</fount size>
-<font size='8'>
-  <li> Программы: <a name="name">питание</a>, <a name="name">тренировки</a>
+     <div id="kartinki">
+       <img src="x_fecf5b45.jpg" width="463" height="340"/>
+     <img src="kai_4.jpg" width="413" height="430"/>
+      <img src="Universal-Nutrition-Animal-Pak-15pack-old.jpg" width="453" height="333"/>
+       <img src="c_6WZ1cAfAU.jpg" width="300" height="353"-/>
+     </div>
+     <div id="chas">
+      <script language="LiveScript">
+function GoBack() {
+        if (confirm("Are you sure you want to go to the previous page?")) {
+                history.back()
+        }
+    }
 
-</li>
-</font size>
-</div>
-<div>
-<div class="col span_11" style='background-color:#060'> 
-<font size='8' color='white'>
-<li> Магазин в вашем городе</li>
-</font size>
-</div>
-<div>
-<div class="col span_11" style='background-color:#060'> 
-<font size='8' color='white'>
-<li> Новости </li>
-</font size>
-</div>
-<div>
-<div class="col span_11" style='background-color:#060'> 
-<font size='8' color='white'>
-<li> <a href="index1.html" style="color:#104E8B; text-decoration:none">Травмы</a> </li>
-</font size>
-</div>
-<div>
-<div class="col span_11" style='background-color:#060'> 
-<font size='8' color='white'>
-<li> Форум </li>
-</font size>
-</div>
-</div class="row">
-</body>
+timestr = "00:00:00";
+tid = 0;
+pause = 0;
+var to;
+var bcount;
+var tcount;
 
+function writer(){
+document.write("test"); 
+}
 
-   
-</html>
+function time(n) {
+    tid=window.setTimeout("time(1)",to);
+    today = new Date()
+    if(today.getMinutes() < 10){ 
+        pad = "0"}
+    else  
+    pad = "";
+    if(today.getSeconds() < 10){ 
+        pads = "0"}
+    else  
+    pads = "";
+timestr=today.getHours()+":"+pad+today.getMinutes()+":"+pads+today.getSeconds();
+                f.result.value = timestr;
+                window.status = timestr;
+  window.clearTimeout(tid);
+  tid=window.setTimeout("time()",to);
+}
+
+function start(x) {
+  f=x;
+                to=60;
+  time(x);
+  }
+
+function cleartids() {
+ window.clearTimeout(tid);
+}
+
+</script>
+<br><br>
+<center>
+<form name="time">
+<input type="text" size="18" name="result"  onfocus="this.blur()"  style="text-align: center; font-family: sans-serif; font-size: 18pt; background-color: #006999; color: #000000; font-weight:bold;">
+</form>
+</center>
+</div>
+    </body>
+    </html>
